@@ -7,7 +7,7 @@ void my_print_n_ascii(int howMany) {
         return ;
     }
     else{
-        for (ascii = '!' ; ascii != nb+1; ascii++) {
+        for (ascii = '!' ; ascii != nb; ascii++) {
         print_char(ascii) ;
         }
     } 
